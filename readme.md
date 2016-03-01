@@ -151,7 +151,9 @@ Najpierw używając pętli zagnieżdżonych narysuj pierwszą połowę rysunku. 
 
 #### Ćwiczenie 11
 Napisz program który napisze tabliczkę mnożenia dla podanej zmiennej n. Np., dla n = 3 wynik będzie wyglądać następująco:
+
 |1 x 1 = 1|1 x 2 = 2|1 x 3 = 3|
+| ------- | ------- | ------- |
 |2 x 1 = 2|2 x 2 = 4|2 x 3 = 6|
 |3 x 1 = 3|3 x 2 = 6|3 x 3 = 9|
 
@@ -165,7 +167,7 @@ Napisz funkcje o nazwie ```FooBar```, przyjmującą jedną zmienną. Funkcja ta 
 * W miejsce liczb podzielnych przez 5 wypisywać Bar
 * W miejsce liczb podzielnych przez 3 i 5 wypisywać FOOBAR
 Np. Dla parametru x = 15 wynik ma być:
-```12Foo4BarFoo78FooBar11Foo1314FOOBAR```
+12Foo4BarFoo78FooBar11Foo1314FOOBAR
 
 #### Ćwiczenie 13 - razem z wykładowcą
 Napisać funkcję, która pobiera liczbę ```a``` i ```n``` jako argument i *zwraca* jako wynik ```a``` do potęgi ```n```.
@@ -180,10 +182,14 @@ Napisać funkcję, która pobiera 3 liczby i zwraca największą z nich (zwraca 
 #### Ćwiczenie 16
 Zamień ćwiczenia od 2 do 11 na funkcjie. Pamiętaj o przyjmowaniu odpowiednich argumentów do funkcji i zwracaniu wartości (funkcjie dla ćwiczeń 2, 4 i 5 powinny zwracać wawrtośc wyliczoną w środku funkcji).
 
-### Praca domowa
+
+
+## Praca domowa
 Praca domową jest dokończenie i powtórzenie wszystkich ćwiczeń które zrobiliście na zajęciach. 
 
-### Zadania dla chętnych
+
+
+## Zadania dla chętnych
 Poniżej znajdują się dodatkowe zadania które są trochę trudniejsze. Zachęcam żeby każdy z was się co najmniej zastanowił nad tym jak je rozwiązać.
 
 #### Ćwiczenie dodatkowe 1
@@ -216,7 +222,7 @@ Napisz program który wypisze wszystkie liczby do wcześniej zdefiniowanej liczb
 #### Ćwiczenie dodatkowe 5
 Napisz funkcję mySin(x, iterNum) i myCos(x, iterNum), która zwraca aproksymacje funkcji sinus i cosinus używając następujących wzorów:
 ```
-sin(x) = (x^1)/1 - (x^3)/3! + (x^5)/5! - (x^7)/7! + (x^9)/9! - (x^12)/12! + ...
+sin(x) = (x^1)/1! - (x^3)/3! + (x^5)/5! - (x^7)/7! + (x^9)/9! - (x^12)/12! + ...
 cos(x) = (x^0)/0! - (x^2)/2! + (x^4)/4! - (x^6)/6! + (x^8)/8! - (x^10)/10! + ...
 ```
 Pamiętaj że ```0! = 1```
