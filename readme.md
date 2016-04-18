@@ -41,7 +41,7 @@ Narysuj schemat blokowy wypisujący wszystkie pozycje, na których w tablicy A[0
 
 ### Ćwiczenia do wyrażen warunkowych (rozwiązania wpisz w odpowiednie pliki)
 
-#### Ćwiczenie 1 - razem z wykładowcą
+#### Ćwiczenie 4 - razem z wykładowcą
 Napisz skrypt który definiuje 3 liczby: a, b i c. Nastepnie sprawdzi czy podane liczby mogą być bokami trójkąta. 
 Trójkąt można zbudować z 3 linii tylko wtedy kiedy:
 ```
@@ -52,13 +52,13 @@ a + c > b
 Żeby wypisać coś na stronie użyj funkcji ```echo("Tekst który pokaże się na stronie");```
 
 
-#### Ćwiczenie 2
+#### Ćwiczenie 5
 Napisz program, który definiuje 3 liczby całkowite. 
 Za pomocą używania instrukcji if, else wypisz na stronie największą z tych liczb. 
 Do porównywania liczb użyj operatorów: ```>``` (większy), ```>=``` (większy równy), ```<``` (mniejszy), ```<=``` (mniejszy równy). 
 
 
-#### Ćwiczenie 3
+#### Ćwiczenie 6
 Napisz program, który wystawi ocenę z testu (użyj `if`, `elseif` i `else`).
 * 0 - 39 pkt - ocena niedostateczna
 * 40 - 54 pkt - ocena dopuszczająca
@@ -69,7 +69,7 @@ Napisz program, który wystawi ocenę z testu (użyj `if`, `elseif` i `else`).
 
 ### Ćwiczenia do petli (rozwiązania wpisz w odpowiednie pliki)
 
-#### Ćwiczenie 4 - razem z wykładowcą
+#### Ćwiczenie 7 - razem z wykładowcą
 Napisz program, który liczy wartość x!. gdzie ! oznacza silnię a x jest zmienną. 
 Użyj do tego obu znanych Ci pętli.
 
@@ -80,14 +80,14 @@ Silnia jest zdefiniowana jako iloraz wszystkich liczb całkowitych w zakresie od
 ```
 
 
-#### Ćwiczenie 5
+#### Ćwiczenie 8
 Napisz program, który będzie liczył sumę wszystkich liczb w podanym przedziale od x do y. 
 Użyj do tego obu znanych Ci pętli. 
 
 Np. dla podanego x = 5, y = 10 suma to 5+6+7+8+9+10=45
 
 
-#### Ćwiczenie 6
+#### Ćwiczenie 9
 Napisz program który na podstawie wartości zmiennej n wypisywał wszystkie liczby od 0..n. 
 Przy każdej liczbie ma napisać czy jest ona parzysta czy nie. Np:
 ```
@@ -100,7 +100,7 @@ Przy każdej liczbie ma napisać czy jest ona parzysta czy nie. Np:
 
 ### Ćwiczenia do petli zagnieżdzonych (rozwiązania wpisz w odpowiednie pliki)
 
-#### Ćwiczenie 7 - razem z wykładowcą
+#### Ćwiczenie 10 - razem z wykładowcą
 Napisz program który na podstawie wartości zmiennej n będzie rysował następujący schemat (tutaj dla n = 5):
 ```
 * * * * * 
@@ -113,7 +113,7 @@ Musisz do tego użyć pętli zagnieżdżonych!
 
 Jeżeli chcesz przełamać linię musisz wyświetlić na stonie tag ```<br>``` (czyli zrobić ```echo("<br>");```)
 
-#### Ćwiczenie 8 - razem z wykładowcą
+#### Ćwiczenie 11 - razem z wykładowcą
 Napisz program który na podstawie wartości zmiennej n będzie rysował następujący schemat (tutaj dla n = 5). Użyj do tego 2ch pętli for.
 ```
 * 
@@ -125,7 +125,7 @@ Napisz program który na podstawie wartości zmiennej n będzie rysował następ
 1. Rozwiąż to zadanie używając pętli zależnych.
 2. Rozwiąż to zadanie używając pętli niezależnych i if-a.
 
-#### Ćwiczenie 9
+#### Ćwiczenie 12
 Napisz program który na podstawie wartości zmiennej n będzie rysował następujący schemat (tutaj dla n = 5):
 ```
   *   *   
@@ -136,7 +136,7 @@ Napisz program który na podstawie wartości zmiennej n będzie rysował następ
 ```
 Musisz do tego użyć pętli zagnieżdżonych a w wewnętrznej pętli dodać if który będzie sprawdzał odpowiedni warunek (jeżeli (i + j) jest nieparzyste to ma być gwiazdka).
 
-#### Ćwiczenie 10
+#### Ćwiczenie 13
 Napisz program który na podstawie wartości zmiennej n będzie rysował następujący schemat (tutaj dla n = 5):
 ```
 * 2 3 4 5
@@ -152,7 +152,7 @@ Napisz program który na podstawie wartości zmiennej n będzie rysował następ
 ```
 Najpierw używając pętli zagnieżdżonych narysuj pierwszą połowę rysunku. Potem dopiero dopisz drugą parę pętli zagnieżdżonych która dorysuję resztę.
 
-#### Ćwiczenie 11
+#### Ćwiczenie 14
 Napisz program który napisze tabliczkę mnożenia dla podanej zmiennej n. Np., dla n = 3 wynik będzie wyglądać następująco:
 
 |1 x 1 = 1|1 x 2 = 2|1 x 3 = 3|
@@ -166,7 +166,7 @@ Do mnożenia liczb użyj operatora ```*```. Do stworzenia tabelki użyj tagów H
 
 *Pamiętaj o tym że z funkcji zwracasz wartosć poprzez użycie słowa kluczowego ```return```. *
 
-#### Ćwiczenie 12 - razem z wykładowcą
+#### Ćwiczenie 15 - razem z wykładowcą
 Napisz funkcje o nazwie ```FooBar```, przyjmującą jedną zmienną. Funkcja ta ma *zwracać* napis skonstuowany według nastepujących zasad: Napis ma się składać z kolejnych liczb całkowityczh (zaczynając od 1-ki), ale:
 * W miejsce liczb podzielnych przez 3 wypisywać ```Foo```
 * W miejsce liczb podzielnych przez 5 wypisywać ```Bar```
@@ -175,18 +175,18 @@ Napisz funkcje o nazwie ```FooBar```, przyjmującą jedną zmienną. Funkcja ta 
 Np. Dla parametru x = 15 wynik ma być:
 ```12Foo4BarFoo78FooBar11Foo1314FOOBAR ```
 
-#### Ćwiczenie 13 - razem z wykładowcą
+#### Ćwiczenie 16 - razem z wykładowcą
 Napisać funkcję, która pobiera liczbę ```a``` i ```n``` jako argument i *zwraca* jako wynik ```a``` do potęgi ```n```.
 
 Nie używaj ```Math.pow()``` tylko pętli!
 
-#### Ćwiczenie 14
+#### Ćwiczenie 17
 Napisać funkcję, która przyjmuje liczbę ```n``` i wyświetla ```n``` razy na stronie napis "Programowanie w PHP jest fajne!".
 
-#### Ćwiczenie 15
+#### Ćwiczenie 18
 Napisać funkcję, która pobiera 3 liczby i *zwraca* największą z nich (zwraca a nie wypisuje na ekranie).
 
-#### Ćwiczenie 16
+#### Ćwiczenie 19
 Zamień ćwiczenia od 2 do 11 na funkcje. Pamiętaj o przyjmowaniu odpowiednich argumentów do funkcji i zwracaniu wartości (funkcje dla ćwiczeń 2, 4 i 5 powinny zwracać wartośc wyliczoną w środku funkcji).
 
 
