@@ -59,13 +59,13 @@ Do porównywania liczb użyj operatorów: ```>``` (większy), ```>=``` (większy
 
 
 #### Ćwiczenie 3
-Napisz program, który wystawi ocenę z testu (uzyj if, elseif i else).
-0 - 39 pkt - ocena niedostateczna
-40 - 54 pkt - ocena dopuszczająca
-55 - 69 pkt - ocena dostateczna
-70 - 84 pkt - ocena dobra
-85 - 98 pkt - ocena bardzo dobra
-99 - 100 pkt - ocena celująca
+Napisz program, który wystawi ocenę z testu (użyj `if`, `elseif` i `else`).
+* 0 - 39 pkt - ocena niedostateczna
+* 40 - 54 pkt - ocena dopuszczająca
+* 55 - 69 pkt - ocena dostateczna
+* 70 - 84 pkt - ocena dobra
+* 85 - 98 pkt - ocena bardzo dobra
+* 99 - 100 pkt - ocena celująca
 
 ### Ćwiczenia do petli (rozwiązania wpisz w odpowiednie pliki)
 
