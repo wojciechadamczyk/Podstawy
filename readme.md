@@ -37,12 +37,12 @@ Narysuj schemat blokowy, znajdujący najwyższą liczbę w 10 elementowej tablic
 Narysuj schemat blokowy, który doda wszystkie elementy w 10 elementowej tablicy a wynik wypisze na ekranie.
 
 #### Ćwiczenie 3
-Narysuj schemat blokowy wypisujący wszystkie pozycje, na których w tablicy A[0, . . . , n-1] znajduje się liczba x.
+Narysuj schemat blokowy wypisujący wszystkie pozycje, na których w tablicy A[0, . . . , n-1] (talica o nie wiadomej liczbie elementów) znajduje się liczba x.
 
 ### Ćwiczenia do wyrażen warunkowych (rozwiązania wpisz w odpowiednie pliki)
 
 #### Ćwiczenie 4 - razem z wykładowcą
-Napisz skrypt który definiuje 3 liczby: a, b i c. Nastepnie sprawdzi czy podane liczby mogą być bokami trójkąta. 
+Napisz skrypt który definiuje 3 liczby jako zmienne: a, b i c. Nastepnie sprawdzi czy podane liczby mogą być bokami trójkąta. 
 Trójkąt można zbudować z 3 linii tylko wtedy kiedy:
 ```
 a + b > c
@@ -53,13 +53,15 @@ a + c > b
 
 
 #### Ćwiczenie 5
-Napisz program, który definiuje 3 liczby całkowite. 
+Napisz program, który definiuje jako zmienne 3 liczby całkowite. 
 Za pomocą używania instrukcji if, else wypisz na stronie największą z tych liczb. 
 Do porównywania liczb użyj operatorów: ```>``` (większy), ```>=``` (większy równy), ```<``` (mniejszy), ```<=``` (mniejszy równy). 
 
 
 #### Ćwiczenie 6
 Napisz program, który wystawi ocenę z testu (użyj `if`, `elseif` i `else`).
+Pamiętaj o sprawdzeniu czy ilość punktów nie jest mniejsza niż 0 i większa niż 100.
+
 * 0 - 39 pkt - ocena niedostateczna
 * 40 - 54 pkt - ocena dopuszczająca
 * 55 - 69 pkt - ocena dostateczna
@@ -88,8 +90,8 @@ Np. dla podanego x = 5, y = 10 suma to 5+6+7+8+9+10=45
 
 
 #### Ćwiczenie 9
-Napisz program który na podstawie wartości zmiennej n wypisywał wszystkie liczby od 0..n. 
-Przy każdej liczbie ma napisać czy jest ona parzysta czy nie. Np:
+Napisz program który na podstawie wartości zmiennej n będzie wypisywał wszystkie liczby od 0..n. 
+Przy każdej liczbie ma napisać czy jest ona parzysta czy nie, liczba i informacja o niej mają znaleźć się w jednej linii. Np:
 ```
 0 – parzysta
 1 – nieparzysta
@@ -167,7 +169,7 @@ Do mnożenia liczb użyj operatora ```*```. Do stworzenia tabelki użyj tagów H
 *Pamiętaj o tym że z funkcji zwracasz wartosć poprzez użycie słowa kluczowego ```return```. *
 
 #### Ćwiczenie 15 - razem z wykładowcą
-Napisz funkcje o nazwie ```FooBar```, przyjmującą jedną zmienną. Funkcja ta ma *zwracać* napis skonstuowany według nastepujących zasad: Napis ma się składać z kolejnych liczb całkowityczh (zaczynając od 1-ki), ale:
+Napisz funkcje o nazwie ```FooBar```, przyjmującą jedną zmienną. Funkcja ta ma **zwracać** napis skonstruowany według nastepujących zasad: Napis ma się składać z kolejnych liczb całkowityczh (zaczynając od 1-ki), ale:
 * W miejsce liczb podzielnych przez 3 wypisywać ```Foo```
 * W miejsce liczb podzielnych przez 5 wypisywać ```Bar```
 * W miejsce liczb podzielnych przez 3 i 5 wypisywać ```FOOBAR```
@@ -176,35 +178,35 @@ Np. Dla parametru x = 15 wynik ma być:
 ```12Foo4BarFoo78FooBar11Foo1314FOOBAR ```
 
 #### Ćwiczenie 16 - razem z wykładowcą
-Napisać funkcję, która pobiera liczbę ```a``` i ```n``` jako argument i *zwraca* jako wynik ```a``` do potęgi ```n```.
+Napisz funkcję, która pobiera liczbę ```a``` i ```n``` jako argument i **zwraca** jako wynik ```a``` do potęgi ```n```.
 
-Nie używaj ```Math.pow()``` tylko pętli!
+Nie używaj funkcji wbudowanej ```pow()``` tylko pętli!
 
 #### Ćwiczenie 17
-Napisać funkcję, która przyjmuje liczbę ```n``` i wyświetla ```n``` razy na stronie napis "Programowanie w PHP jest fajne!".
+Napisz funkcję, która przyjmuje liczbę ```n``` jako argument i wyświetla ```n``` razy na stronie napis "Programowanie w PHP jest fajne!".
 
 #### Ćwiczenie 18
-Napisać funkcję, która pobiera 3 liczby i *zwraca* największą z nich (zwraca a nie wypisuje na ekranie).
+Napisz funkcję, która pobiera 3 liczby jako argumenty i **zwraca** największą z nich (zwraca a nie wypisuje na ekranie).
 
 #### Ćwiczenie 19
-Zamień ćwiczenia od 2 do 11 na funkcje. Pamiętaj o przyjmowaniu odpowiednich argumentów do funkcji i zwracaniu wartości (funkcje dla ćwiczeń 2, 4 i 5 powinny zwracać wartośc wyliczoną w środku funkcji).
+Zamień ćwiczenia od 2 do 11 na funkcje. Pamiętaj o przyjmowaniu odpowiednich argumentów do funkcji i zwracaniu wartości (funkcje dla ćwiczeń 2, 4 i 5 powinny zwracać wartość wyliczoną w środku funkcji).
 
 
 
 ## Praca domowa
-Praca domową jest dokończenie i powtórzenie wszystkich ćwiczeń które zrobiliście na zajęciach. 
+Pracą domową jest dokończenie i powtórzenie wszystkich ćwiczeń które zrobiliście na zajęciach. 
 
 
 
 ## Zadania dla chętnych
-Poniżej znajdują się dodatkowe zadania które są trochę trudniejsze. Zachęcam żeby każdy z was się co najmniej zastanowił nad tym jak je rozwiązać.
+Poniżej znajdują się dodatkowe zadania, które są trochę trudniejsze. Zachęcam żeby każdy z was się co najmniej zastanowił nad tym jak je rozwiązać.
 
 #### Ćwiczenie dodatkowe 1
-Napisz funkcję sprawdzającą czy podana liczba jest liczbą pierwszą (jest podzielna tylko przez 1 i samą siebie). Funkcja ma zwracać wartość true albo false (boolean).
+Napisz funkcję sprawdzającą czy podana liczba jest liczbą pierwszą (jest podzielna tylko przez 1 i samą siebie). Funkcja ma zwracać wartość ```true``` albo ```false``` (boolean).
 
 Zastosuj podejście brute force:
 
-Algorytm brute force jest najprostszą, a zarazem najbardziej czasochłonną metodą na wyznaczanie liczb pierwszych. Jego działanie opiera się na sprawdzeniu wszystkich potencjalnych dzielników danej liczby - jeżeli dana liczba nie dzieli się przez żadną inną liczbę (oprócz jedynki i samej siebie) to jest ona oznaczana jako pierwsza. 
+Algorytm brute force jest najprostszą, a zarazem najbardziej czasochłonną metodą na wyznaczanie liczb pierwszych. Jego działanie opiera się na sprawdzeniu wszystkich potencjalnych dzielników danej liczby - jeżeli dana liczba nie dzieli się przez żadną inną liczbę całkowitą (oprócz jedynki i samej siebie) to jest ona oznaczana jako pierwsza. 
 
 W celu optymalizacji algorytmu, sprawdza się wszystkie potencjalne dzielniki nie większe niż pierwiastek z samej sprawdzanej liczby - większe wartości nie mogą być już dzielnikami.
 
@@ -228,11 +230,11 @@ pi = 4 * ((1/1 - 1/3) + (1/5 - 1/7) + (1/9 - 1/11) + ...)
 Zobacz jak zmienia się precyzja wyniku w zależności od ilości iteracji twojej pętli.
 
 #### Ćwiczenie dodatkowe 4
-Liczba doskonałą nazywamy liczbę która jest sumą wszystkich swoich dzielników. Jest to np. 6, ponieważ ```6 = 3 + 2 + 1```.
+Liczbą doskonałą nazywamy liczbę, która jest sumą wszystkich swoich dzielników. Jest to np. 6, ponieważ ```6 = 3 + 2 + 1```.
 
-Liczbą niekompletną nazywamy liczbę która jest większa od sumy wszystkich swoich dzielników. Jest to np. ```10 (1+2+5=8 < 10)```.
+Liczbą niekompletną nazywamy liczbę, która jest większa od sumy wszystkich swoich dzielników. Jest to np. ```10 (1+2+5=8 < 10)```.
 
-Napisz program który wypisze wszystkie liczby do wcześniej zdefiniowanej liczby ```x``` i określi czy jest to liczba doskonała, niekompletna czy żadna z nich.
+Napisz program który wypisze wszystkie liczby od 0 do wcześniej zdefiniowanej liczby ```x``` i określi czy jest to liczba doskonała, niekompletna czy żadna z nich.
 
 #### Ćwiczenie dodatkowe 5
 Napisz funkcję mySin(x, iterNum) i myCos(x, iterNum), która zwraca aproksymacje funkcji sinus i cosinus używając następujących wzorów:
